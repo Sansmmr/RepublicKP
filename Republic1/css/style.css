@@ -1,0 +1,130 @@
+@media (max-width: 600px) {
+    .chooko {
+        padding: 10px;
+    }
+    .choooko {
+        font-size: 0.8em;
+    }
+}
+
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #e6f700;
+    --text-color: #333;
+    --gradient-to-top: linear-gradient(to top, #ff7e5f, #feb47b);
+    --radius: 8px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.chooko {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: var(--radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chookooo {
+    height: 6rem;
+    border-radius: 100%;
+    filter: drop-shadow(0 0.25rem 1rem rgba(0, 0, 0, 0.25));
+}
+
+.choooko {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.8rem;
+    margin: 0 0 0.5rem 0;
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: var(--radius);
+    transition: transform 0.125s ease;
+    background: var(--gradient-to-top) center / 500% 500% no-repeat;
+    box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.choooko:hover {
+    transform: scale(1.02);
+}
+
+.choooko:active {
+    transform: scale(0.98);
+}
+
+.choookooooo {
+    display: block;
+    font-size: 0.8em;
+    opacity: 0.8;
+    font-weight: normal;
+}
+
+.chooooko {
+    padding: 0.5rem 2.5rem;
+}
+
+.chooooko svg {
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    height: 1.5rem;
+    transform: translateY(-50%);
+    fill: currentColor;
+}
+
+.smoke {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    animation: smoke 3s infinite;
+}
+
+@keyframes smoke {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+}
+
+.hookah-container {
+    display: inline-block;
+    width: 200px;
+}
+
+.hookah-image {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .chooko {
+        padding: 10px;
+    }
+    .choooko {
+        font-size: 0.8em;
+    }
+}
